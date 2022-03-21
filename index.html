@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        h2 {
+            color : blue;
+            /* text-align: center; */
+            position: absolute;
+            top :  715px;
+            right : 50px;
+            left: 90px;
+        }
+        
+        * {
+             margin:0;
+             padding:0;
+             box-sizing: border-box;
+        }
+        iframe {
+            height: 100vh;
+            width: 100%;
+        }
+
+        .container_box {
+            display: flex;
+        }
+        .content_left {
+            flex : 70%;
+        }
+        .content_right {
+            position: relative;
+            flex : 30%;
+
+        }
+
+        @media(max-width:1050px) {
+            .container_box {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .content_left {
+            flex : 100%;
+        }
+        .content_right {
+            flex : 100%;
+
+        }
+        h2 {
+            top :  680px;
+            right : 50px;
+            left: 250px;
+        }
+
+        }
+
+        @media(max-width:450px) {
+            .container_box {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .content_left {
+            flex : 100%;
+        }
+        .content_right {
+            flex : 100%;
+
+        }
+        h2 {
+            top: 700px;
+            left : 60px;
+        }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container_box">
+        <div class="content_left">
+            <iframe src="https://drive.google.com/file/d/1-Ry5ux6z4orVZ5dWWwBlaKIFpLRxkAvK/preview" >Đang tải…</iframe>
+        </div>
+        <div class="content_right">
+
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdzD8qnf3gKpRMsljXH2ybotxTR4wiMKhBPMB2wb0zTB6piFQ/viewform?embedded=true">Đang tải…</iframe>
+            <h2>DESIGN BY THINH LE</h2>
+        </div>
+
+    </div>
+    
+</body>
+</html>
